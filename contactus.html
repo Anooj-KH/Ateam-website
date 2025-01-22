@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+
+    <script src="bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"> </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" type="image/x-icon" href="./Ateam website pics/logo.jpg">
+
+
+    <style>
+        /* header css */
+        #title {
+            font-size: 3rem;
+            font-style: italic;
+            font-weight: bolder;
+
+        }
+
+        #topnav {
+            background-color: black;
+        }
+
+        #sidenav {
+            background-color: rgb(145, 206, 209);
+            background-image: url("./sidebar.jpg");
+            background-attachment: scroll;
+            background-size: cover;
+            /* overflow: auto;
+            height: 90vh; */
+        }
+
+        #btn {
+            background: #f2eeee;
+
+        }
+
+        #btn:hover {
+            background-color: green;
+        }
+
+
+
+        /* footer css */
+
+        #footer {
+
+            background-image: url("./footer.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        h1 {
+            font-size: 2rem;
+            background: linear-gradient(to right, rgb(248, 247, 247), rgb(232, 232, 228), rgb(21, 144, 231), rgb(12, 19, 235));
+            background-clip: text;
+            color: transparent;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        .facebook,
+        .x,
+        .insta,
+        .whatsapp,
+        .linkedin {
+            color: #c3c2c2;
+            width: 100px;
+        }
+
+        .facebook:hover {
+            color: blue;
+            font-size: 120%;
+        }
+
+        .x:hover {
+            color: black;
+            font-size: 120%;
+        }
+
+        .insta:hover {
+            color: rgb(230, 20, 97);
+            font-size: 120%;
+        }
+
+        .whatsapp:hover {
+            color: green;
+            font-size: 120%;
+        }
+
+        .linkedin:hover {
+            color: rgb(47, 60, 234);
+            font-size: 120%;
+        }
+
+        span {
+            color: #ada9a9;
+            text-shadow: 2px 2px 4px #686b4c;
+
+        }
+
+        span:hover {
+            color: white;
+            text-shadow: 2px 2px 4px #583a84;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- header -->
+
+    <header>
+
+        <!-- topnav bar -->
+
+        <div class="container-fluid">
+            <div id="topnav" class="row mt-1">
+                <nav class="navbar navbar-expand">
+                    <div class="col-3">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"> <a href="#" class="navbar-brand nav-link" style="margin: 10%;">
+                                    <img src="./Ateam website pics/Logo-Ateam-Soft-Solutions.jpg" alt="anya"
+                                        width="120px"> </a>
+
+                            </li>
+                        </ul>
+                    </div>
+                    <div class=" col-6">
+                        <ul class="navbar-nav">
+                            <li id="ateam" class="nav-item" style="padding-left: 25%;"><a href="#"
+                                    class="text-white nav-link" style="text-decoration: none; ">
+                                    <h2 id="title"> Ateam Soft Solutions </h2>
+                                </a>
+
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="col-3">
+                        <ul class="navbar-nav">
+                            <li class="nav-item" style="padding-left: 30%;"><input type="search " class=" rounded-pill "
+                                    placeholder=" search   ">
+                                <button class="btn btn-sm btn-primary rounded-pill text-dark"> Search </button>
+
+                            </li>
+                        </ul>
+
+                    </div>
+
+
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- side nav bar -->
+
+    <div class="row mt-2 me-4">
+        <div class="col-md-2 " id="sidenav">
+            <nav class="navbar navbar-expand-sm">
+
+                <div class="container-fluid">
+                    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse " id="collapsibleNavbar"> <br>
+                        <ul class="nav-item nav-justified">
+                            <li class="nav-link p-4 mt-5 "><a href="./Ateam.html"
+                                    class="btn  text-dark" id="btn">
+                                    <strong>Home</strong> </a>
+                            </li>
+                            <li class="nav-link  p-4 mt-5"><a href="./Aboutus.html "
+                                    class="btn  text-dark" id="btn"><strong>About
+                                        Us</strong></a>
+                            </li>
+                            <li class="nav-link  p-4 mt-5"><a href="./internship.html"
+                                    class="btn  text-dark" id="btn"><strong>Internship</strong></a>
+                            </li>
+                            <li class="nav-link  p-4 mt-5"><a href="./course.html"
+                                    class="btn  text-dark" id="btn"><strong>Courses</strong></a>
+                            </li>
+                            <li class="nav-link  p-4 mt-5"><a href="./contactus.html"
+                                    class="btn bg-success " style="color: white;" id="btn"><strong>Contact Us</strong></a>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="col-md-4 mt-5">
+            <div>
+                <h3 class=" display-6 " style="color: rgb(22, 48, 220); text-align: center;"><i><i
+                            class="fa-solid fa-comment fa-lg" style="color: #74C0FC;"></i>&nbsp;&nbsp;<b>Chat With
+                            Us</b></i>
+                </h3>
+            </div>
+            <div class="row mt-5">
+                <div class="col-sm-5 " style="margin-left: 25%;">
+                    <div class="card border-0 bg-light" style="width: 350px;">
+                        <h4 style="font-weight: bold; font-family:cursive">DROUP US A</h4>
+                        <h2 style="color:rgb(218, 9, 255) ;font-weight: 900; font-size:40px;">MESSAGE</h2>
+                        <form action="">
+                            <div class="row  mb-3 mt-4">
+                                <div class="col-md-10 ">
+
+                                    <input type="text" class="form-control border border-primary  " id="Name"
+                                        placeholder=" Name" name="Name" required>
+                                </div>
+
+                            </div>
+                            <div class="row  mb-3 mt-4">
+                                <div class=" col-md-10">
+                                    <input type="email" class="form-control border border-primary" id="email"
+                                        name="email" placeholder=" E-mail" required>
+                                </div>
+                            </div>
+                            <div class="row  mb-3 mt-4">
+                                <div class=" col-md-10">
+                                    <input type="number" class="form-control border border-primary" id="number"
+                                        name="number" placeholder=" Phone Number" required>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+
+                                <div class="col-md-10">
+                                    <input list="how" class="form-control border border-primary" id="social"
+                                        placeholder="How did u came to know us" name="social">
+                                    <datalist id="how">
+                                        <option value="linkedin"></option>
+                                        <option value="Nakuri"></option>
+                                        <option value="instagram"></option>
+
+                                    </datalist>
+                                </div>
+                            </div>
+
+                            <div class="row  mb-3 mt-4">
+                                <div class=" col-md-10">
+                                    <textarea type="text" class="form-control border border-primary" id="text"
+                                        name="text" placeholder="Tell us about your project "
+                                        style="height: 100px;"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="  row text-center">
+                                <div class="btn btn-lg">
+                                    <button type="submit" class="btn btn-dark text-white">Send Message</button>
+
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-1 mt-5">
+            <div class="card border-0" style="margin-left: 80%; height: 100%;">
+                <img src="./Ateam website pics/div.jpg" width="10px" height="100%" alt="">
+             
+
+            </div>
+        </div>
+        <div class="col-md-4 mt-5">
+            <div>
+                <h3 class=" display-6 " style="color: rgb(22, 48, 220); text-align: center;"><i><i
+                            class="fa-solid fa-calendar-days fa-lg" style="color: #74C0FC;"></i>&nbsp;&nbsp;<b>Book a
+                            Meeting</b></i>
+                </h3>
+            </div>
+            <div class="row mt-5">
+                <div class="col-sm-5  " style="margin-left: 20%;">
+                    <div class="card border-0 bg-light" style="width: 350px; ">
+                        <img src="./Ateam website pics/logo.jpg" alt="" class="rounded-circle"
+                            style="width: 70px; margin-left: 40%;">
+                        <hr>
+                        <img src="./Ateam website pics/logo.jpg" alt="" class="rounded-circle"
+                            style="width: 100px; margin-left: 35%;">
+                        <div class="card-text text-center">
+                            <h4 style="color: grey;"> Ateam Soft Solutions</h4><br>
+                            <h6>
+                                <i class="fa-regular fa-clock fa-lg" style="color: #b9bcc0;"></i>&nbsp;30 mins <br><br>
+                                <i class="fa-solid fa-video fa-lg" style="color: #b5b7ba;"></i>&nbsp;Web conferencing
+                                details provided upon confirmation.
+                            </h6>
+                            <hr>
+                            <img src="./Ateam website pics/calander.png" alt="" width="100%">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3948.0118314182964!2d77.2317315748371!3d8.301620391733538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0455c97f9a9b3b%3A0xb6a950fdb307a0c4!2sAteam%20Soft%20Solutions%20-%20Software%20Development%20Training%20Marthandam!5e0!3m2!1sen!2sin!4v1723704480898!5m2!1sen!2sin"
+            width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!-- footer -->
+
+    <footer>
+        <div id="footer" class="container-fluid">
+
+            <div class="row">
+                  <div class="col-sm-4">
+
+                        <div style="color: white; text-align: center;">
+                            <h1> USA</h1><br>
+                            <i class="fa-solid fa-location-dot fa-beat-fade fa-2xl" style="color: #c3c2c2;"></i>
+                            <span style="color: white; "> &nbsp; &nbsp;1309 Coffeen Avenue STE 1200 <br>
+                                Sheridan, Wyoming 82801, USA</span><br>
+                            <div class="p-4">
+                                <i class="fa-solid fa-envelope  fa-2xl" style="color: #c3c2c2;"></i>
+                                <a href="#" style="text-decoration: none; color: white;">&nbsp;
+                                    &nbsp;sales@ateamsoftsolutions.com</a>
+                            </div>
+                            <div class="p-4">
+                                <i class="fa-solid fa-phone fa-bounce fa-2xl" style="color:  #c3c2c2;"></i>
+                                <a href="#" style="text-decoration: none; color: white;">&nbsp; &nbsp;+44-8762653</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div style="color: white; text-align: center;">
+                            <h1> AUS</h1><br>
+                            <i class="fa-solid fa-location-dot fa-beat-fade fa-2xl" style="color:  #c3c2c2;"></i>
+                            <span style="color: white;"> &nbsp; &nbsp;PO Box 1355,Mudgeeraba, <br>
+                                Queensland, 4213, Australia</span><br>
+                            <div class="p-4">
+                                <i class="fa-solid fa-envelope  fa-2xl" style="color:  #c3c2c2;"></i>
+                                <a href="#" style="text-decoration: none;color: white;">&nbsp;
+                                    &nbsp;sales@ateamsoftsolutions.com</a>
+                            </div>
+                            <div class="p-4">
+                                <i class="fa-solid fa-phone fa-bounce fa-2xl" style="color: #c3c2c2;"></i>
+                                <a href="#" style="text-decoration: none; color: white;">&nbsp; &nbsp;+66-7986532</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-4 ">
+                        <div style="color: white; text-align: center;">
+                            <h1> IND</h1><br>
+                            <i class="fa-solid fa-location-dot fa-beat-fade fa-2xl" style="color:  #c3c2c2;"></i>
+                            <span style="color: white;"> &nbsp; &nbsp;Door No 10, JV Tower, 136g, Pammam Rd,<br>
+                                Marthandam, Tamil Nadu </span><br>
+                            <div class="p-4">
+                                <i class="fa-solid fa-envelope  fa-2xl" style="color:  #c3c2c2;"></i>
+                                <a href="#" style="text-decoration: none;color: white;">&nbsp;
+                                    &nbsp;sales@ateamsoftsolutions.com</a>
+                            </div>
+                            <div class="p-4">
+                                <i class="fa-solid fa-phone fa-bounce fa-2xl" style="color:  #c3c2c2;"></i>
+                                <a href="#" style="text-decoration: none; color: white;">&nbsp; &nbsp;+91-9442402893</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                <div class="row">
+
+                    <div class="col-sm-12">
+                        <div class=" d-flex justify-content-center " style="padding: 5%; font-size: 22px;">
+                            <a class="facebook" href="https://www.facebook.com/ateamsoftsolutions/" target="_blank"><i
+                                    class="fa-brands fa-facebook fa-2xl"></i></a>
+                            <a class="x " href="https://x.com/IndiaAteam" target="_blank"><i
+                                    class="fa-brands fa-x-twitter fa-2xl"></i></a>
+                            <a class="insta" href="https://www.instagram.com/ateamsoftsolutions/" target="_blank"><i
+                                    class="fa-brands fa-instagram fa-2xl"></i></a>
+                            <a class="whatsapp" href="https://api.whatsapp.com/send?phone=8893201745" target="_blank"><i
+                                    class="fa-brands fa-whatsapp fa-2xl"></i></a>
+                            <a class="linkedin" href="https://www.linkedin.com/company/ateamsoftsolutions"
+                                target="_blank"><i class="fa-brands fa-linkedin-in fa-2xl"></i></a>
+                        </div>
+                        <div class=" justify-content-center">
+                            <p style=" text-align: center; "><i class="fa-regular fa-copyright fa-lg"
+                                    style="color: #757070;"></i>&nbsp;&nbsp;
+                                <span class="me-4"> 2024 aTeam Soft Solutions, All rights reserved </span>
+                                <span class="me-4">|</span>
+                                <span class="me-4">Privacy Statement </span> <span class="me-4">|</span>
+                                <span class="me-4">Terms of Use </span> <span class="me-4">|</span>
+                                <span class="me-4">Contact Us </span><span class="me-4">|</span>
+                                <span class="me-4">Services </span><span class="me-4">|</span>
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>
